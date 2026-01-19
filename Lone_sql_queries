@@ -1,0 +1,55 @@
+select * from train limit 20
+
+SELECT "Gender",SUM("LoanAmount") AS total_loan_amount
+FROM train
+GROUP BY "Gender";
+
+SELECT * FROM train
+WHERE "LoanAmount" > (SELECT AVG("LoanAmount") FROM train);
+
+SELECT "Loan_ID",("ApplicantIncome" + "CoapplicantIncome") AS total_income
+FROM train
+ORDER BY total_income DESC
+LIMIT 5;
+
+SELECT "Education",AVG("LoanAmount") AS avg_loan_amount
+FROM train
+GROUP BY "Education";
+
+
+SELECT "Married",AVG("LoanAmount") AS avg_loan_amount,SUM("LoanAmount") AS total_loan_amount
+FROM train
+GROUP BY "Married";
+
+SELECT "Credit_History",COUNT(*) AS total_applicants,SUM(CASE WHEN "Loan_Status" = 'Y' THEN 1 ELSE 0 END) AS approved_loans
+FROM train
+GROUP BY "Credit_History";
+
+SELECT CASE
+        WHEN "ApplicantIncome" < 3000 THEN 'Low Income'
+        WHEN "ApplicantIncome" BETWEEN 3000 AND 6000 THEN 'Middle Income'
+        ELSE 'High Income'
+    END AS income_group,
+    COUNT(*) AS applicant_count
+FROM train
+GROUP BY income_group;
+
+SELECT "Property_Area",COUNT(*) AS approved_loans
+FROM train
+WHERE "Loan_Status" = 'Y'
+GROUP BY "Property_Area"
+ORDER BY approved_loans DESC
+LIMIT 3;
+
+SELECT "Self_Employed",
+  COUNT(*) AS total_applicants,
+    SUM(CASE WHEN "Loan_Status" = 'Y' THEN 1 ELSE 0 END) AS approved_loans
+FROM train
+GROUP BY "Self_Employed";
+
+SELECT
+    "Loan_Amount_Term",
+    AVG("LoanAmount") AS avg_loan_amount
+FROM train
+GROUP BY "Loan_Amount_Term"
+ORDER BY "Loan_Amount_Term";
