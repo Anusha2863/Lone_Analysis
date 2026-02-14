@@ -203,16 +203,15 @@ The Loan Approval Analysis Dashboard provides structured insights to improve fin
 pip install pandas numpy matplotlib seaborn
 ```
 
-3. Run the notebook file inside `/notebooks`
+3. Run the notebook file inside `<a href ="https://github.com/Anusha2863/Lone_Analysis/blob/main/loan_eda.ipynb1.ipynb"> Notebook</a>'
 
 ## 🔹 SQL
 
 - Import cleaned CSV file into your database  
-- Execute queries from `/sql/loan_queries.sql`
-
+- Execute queries from <a href = "https://github.com/Anusha2863/Lone_Analysis/blob/main/Lone_sql_queries"> Lone_sql</a>
 ## 🔹 Power BI
 
-- Open '<a href="`  
+- Open '<a href = "https://github.com/Anusha2863/Lone_Analysis/blob/main/Lone_report.png">Report</a>`  
 - Refresh dataset if required  
 
 ⭐ If you found this project helpful, feel free to star the repository!
