@@ -216,3 +216,6 @@ pip install pandas numpy matplotlib seaborn
 
 ⭐ If you found this project helpful, feel free to star the repository!
 
+
+
+![photo2](https://github.com/user-attachments/assets/25cda21e-1a97-454a-a424-7db4ca1150c3)
