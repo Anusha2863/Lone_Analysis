@@ -218,4 +218,5 @@ pip install pandas numpy matplotlib seaborn
 
 
 
-![photo2](https://github.com/user-attachments/assets/25cda21e-1a97-454a-a424-7db4ca1150c3)
+<img width="1080" height="842" alt="Screenshot 2026-02-20 085409" src="https://github.com/user-attachments/assets/db8643ab-ab8f-4ec5-88d9-fe23c63494b3" />
+
