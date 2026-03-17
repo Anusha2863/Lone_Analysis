@@ -218,16 +218,16 @@ pip install pandas numpy matplotlib seaborn
 
 
 
-<img width="1134" height="860" alt="Screenshot 2026-02-20 085224" src="https://github.com/user-attachments/assets/fce91e14-e317-4a62-9396-df2013db825e" />
+<img width="1227" height="856" alt="Screenshot 2026-02-20 081248" src="https://github.com/user-attachments/assets/7e468b94-7d0d-4b2e-80a7-1c431fcdfc20" />
 
-inter
 
-<img width="1187" height="900" alt="Screenshot 2026-02-20 085713" src="https://github.com/user-attachments/assets/74bc3dff-4c19-426f-b4be-e1bc6739957f" />
 
-basic
-<img width="1151" height="874" alt="Screenshot 2026-02-20 085104" src="https://github.com/user-attachments/assets/cd148a1f-9cb7-4292-b42b-1b1dbb19e86b" />
+power
+<img width="1160" height="821" alt="Screenshot 2026-02-20 082333" src="https://github.com/user-attachments/assets/471b7009-e417-4fef-87aa-e1d34cba7e20" />
 
-sql
-<img width="1117" height="856" alt="Screenshot 2026-02-20 085520" src="https://github.com/user-attachments/assets/d874b8c8-2530-461d-9376-d5eef34d4300" />
+
+aws
+
+<img width="1212" height="865" alt="Screenshot 2026-02-20 084025" src="https://github.com/user-attachments/assets/96a76831-72fe-4435-a43c-6f9f0ebb8381" />
 
 
