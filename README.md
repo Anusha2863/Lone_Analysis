@@ -215,7 +215,3 @@ pip install pandas numpy matplotlib seaborn
 - Refresh dataset if required  
 
 ⭐ If you found this project helpful, feel free to star the repository!
-
-<img width="866" height="462" alt="Screenshot 2026-06-28 183744" src="https://github.com/user-attachments/assets/0fabc9c8-0b7a-40c4-8b22-497df91fd245" />
-
-
