@@ -164,8 +164,6 @@ Includes:
 
 <img width="1440" height="787" alt="Lone_report" src="https://github.com/user-attachments/assets/ec36820f-6619-4c6c-8625-8d35297e9ee7" />
 
-<img width="1536" height="1024" alt="SupplyPrescript_Dashboard pbix" src="https://github.com/user-attachments/assets/35768162-c82e-4805-a07e-973509b2f43c" />
-
 
 
 # 🔁 End-to-End Architecture Flow
